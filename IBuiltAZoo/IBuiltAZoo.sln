@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBuiltAZoo", "IBuiltAZoo\IBuiltAZoo.csproj", "{8C04F5F3-1A22-4A86-927D-98F4D22FE48A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBuiltAZooTest", "IBuiltAZooTest\IBuiltAZooTest.csproj", "{D057E9B6-A5A7-4745-B65C-64F7D717C876}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C04F5F3-1A22-4A86-927D-98F4D22FE48A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C04F5F3-1A22-4A86-927D-98F4D22FE48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C04F5F3-1A22-4A86-927D-98F4D22FE48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C04F5F3-1A22-4A86-927D-98F4D22FE48A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D057E9B6-A5A7-4745-B65C-64F7D717C876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D057E9B6-A5A7-4745-B65C-64F7D717C876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D057E9B6-A5A7-4745-B65C-64F7D717C876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D057E9B6-A5A7-4745-B65C-64F7D717C876}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
