@@ -20,7 +20,7 @@ namespace IBuiltAZoo.Classes
             Console.WriteLine("I am omnivorous");
         }
 
-        public override void Sleep()
+        public override void Hibernate()
         {
             Console.WriteLine("I hibernate during winter");
         }

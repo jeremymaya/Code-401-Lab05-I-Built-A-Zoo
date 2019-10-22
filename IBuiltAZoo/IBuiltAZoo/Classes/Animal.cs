@@ -15,7 +15,6 @@ namespace IBuiltAZoo.Classes
         }
 
         abstract public void Eat();
-        abstract public void Sleep();
         virtual public void SpeicesIntro()
         {
             Console.WriteLine($"I am {Species}");

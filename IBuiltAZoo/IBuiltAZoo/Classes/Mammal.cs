@@ -10,6 +10,7 @@ namespace IBuiltAZoo.Classes
             HasFur = fur;
         }
 
+        abstract public void Hibernate();
         public virtual void Hunt()
         {
             Console.WriteLine("Where is my food?");

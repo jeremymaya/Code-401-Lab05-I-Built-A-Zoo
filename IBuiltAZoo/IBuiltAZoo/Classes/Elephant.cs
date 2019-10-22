@@ -4,30 +4,25 @@ using System.Text;
 
 namespace IBuiltAZoo.Classes
 {
-    class Tiger : Mammal
+    class Elephant : Mammal
     {
-        public string Region { get; set; }
+        public int Tusk { get; set; }
         public override string Species { get; set; }
         public override string Reproduce { get; set; }
 
-        public Tiger(string species, bool extinct, string reproduce, bool fur, string region) : base(species, extinct, reproduce, fur)
+        public Elephant(string species, bool extinct, string reproduce, bool fur, int tusk) : base(species, extinct, reproduce, fur)
         {
-            Region = region;
+            Tusk = tusk;
         }
 
         public override void Eat()
         {
-            Console.WriteLine("I am a carnivore");
+            Console.WriteLine("I am a herbivore");
         }
 
         public override void Hibernate()
         {
-            Console.WriteLine("I do NOT hibernate during winter");
-        }
-
-        public override void Sound()
-        {
-            Console.WriteLine("I go PURRRR");
+            Console.WriteLine("What is winter?");
         }
 
         public override void Hunt()
