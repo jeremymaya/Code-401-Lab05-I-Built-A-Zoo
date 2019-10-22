@@ -4,7 +4,7 @@ using System.Text;
 
 namespace IBuiltAZoo.Classes
 {
-    class Reptile : Animal
+    public abstract class Reptile : Animal
     {
         public bool HasScale { get; set; }
         public virtual bool Egg { get; set; } = true;
@@ -13,7 +13,7 @@ namespace IBuiltAZoo.Classes
             HasScale = scale;
         }
 
-        abstract public void Fly();
+        abstract public void Fly(bool canFly);
         public virtual void Hunt()
         {
             Console.WriteLine("Where is my food?");
