@@ -22,7 +22,7 @@ namespace IBuiltAZoo.Classes
 
         public override void Sleep()
         {
-            Console.WriteLine("I hibernate during the winter");
+            Console.WriteLine("I hibernate during winter");
         }
 
         public override void Sound()

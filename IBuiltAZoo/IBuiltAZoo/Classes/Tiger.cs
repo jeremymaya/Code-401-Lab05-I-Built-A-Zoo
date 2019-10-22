@@ -23,17 +23,17 @@ namespace IBuiltAZoo.Classes
 
         public override void Sleep()
         {
-            Console.WriteLine("I hibernate during the winter");
+            Console.WriteLine("I do NOT hibernate during winter");
         }
 
         public override void Sound()
         {
-            Console.WriteLine("I go RAWR");
+            Console.WriteLine("I go PURRRR");
         }
 
         public override void Hunt()
         {
-            Console.WriteLine("I has salmon cookie");
+            Console.WriteLine("I HUNT");
         }
     }
 }
