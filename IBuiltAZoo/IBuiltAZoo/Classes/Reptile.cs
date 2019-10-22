@@ -13,7 +13,7 @@ namespace IBuiltAZoo.Classes
             HasScale = scale;
         }
 
-        abstract public void Fly(bool canFly);
+        abstract public string Fly(bool canFly);
         public virtual void Hunt()
         {
             Console.WriteLine("Where is my food?");

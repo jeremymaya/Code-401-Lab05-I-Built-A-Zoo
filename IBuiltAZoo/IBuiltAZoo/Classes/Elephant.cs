@@ -4,7 +4,7 @@ using System.Text;
 
 namespace IBuiltAZoo.Classes
 {
-    class Elephant : Mammal
+    public class Elephant : Mammal
     {
         public int Tusk { get; set; }
         public override string Species { get; set; }

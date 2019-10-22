@@ -19,9 +19,9 @@ namespace IBuiltAZoo.Classes
         {
             Console.WriteLine($"I am {Species}");
         }
-        virtual public void Sound()
+        virtual public string Sound()
         {
-            Console.WriteLine("I go weeeeeeee");   
+            return "I go weeeeeeee";   
         }
     }
 }

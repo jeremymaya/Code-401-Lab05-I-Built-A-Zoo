@@ -7,7 +7,6 @@ namespace IBuiltAZoo
     {
         static void Main(string[] args)
         {
-            Bear polarBear = new Bear("Polar Bear", false, "Birth", true, "White");
 
         }
     }

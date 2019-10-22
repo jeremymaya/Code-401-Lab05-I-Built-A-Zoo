@@ -25,9 +25,9 @@ namespace IBuiltAZoo.Classes
             Console.WriteLine("I hibernate during winter");
         }
 
-        public override void Sound()
+        public override string Sound()
         {
-            Console.WriteLine("I go RAWR");
+            return "I go RAWR";
         }
 
         public override void Hunt()

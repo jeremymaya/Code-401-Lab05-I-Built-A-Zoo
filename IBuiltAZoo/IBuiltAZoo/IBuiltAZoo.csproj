@@ -6,6 +6,5 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Classes\Amphibian.cs" />
-    <Compile Remove="Classes\Reptile.cs" />
   </ItemGroup>
 </Project>

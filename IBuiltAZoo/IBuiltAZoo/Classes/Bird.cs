@@ -4,13 +4,13 @@ using System.Text;
 
 namespace IBuiltAZoo.Classes
 {
-    class Bird : Reptile
+    public class Bird : Reptile
     {
         public string Food { get; set; }
         public override string Species { get; set; }
         public override string Reproduce { get; set; }
 
-        public Bird(string species, bool extinct, string reproduce, bool fur, string food) : base(species, extinct, reproduce, fur)
+        public Bird(string species, bool extinct, string reproduce, bool scale, string food) : base(species, extinct, reproduce, scale)
         {
             Food = food;
         }
@@ -20,15 +20,15 @@ namespace IBuiltAZoo.Classes
             Console.WriteLine($"I eat {Food}");
         }
 
-        public override void Fly(bool canFly)
+        public override string Fly(bool canFly)
         {
             if (canFly)
             {
-                Console.WriteLine("I can flyyy");
+                return "I can flyyy";
             }
             else
             {
-                Console.WriteLine("I can't fly but I can run");
+                return "I can't fly but I can run";
             }
         }
     }

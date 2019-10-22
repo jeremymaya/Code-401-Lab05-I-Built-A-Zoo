@@ -4,7 +4,7 @@ using System.Text;
 
 namespace IBuiltAZoo.Classes
 {
-    class Tiger : Mammal
+    public class Tiger : Mammal
     {
         public string Region { get; set; }
         public override string Species { get; set; }
@@ -25,9 +25,9 @@ namespace IBuiltAZoo.Classes
             Console.WriteLine("I do NOT hibernate during winter");
         }
 
-        public override void Sound()
+        public override string Sound()
         {
-            Console.WriteLine("I go PURRRR");
+            return "I go PURRRR";
         }
 
         public override void Hunt()
