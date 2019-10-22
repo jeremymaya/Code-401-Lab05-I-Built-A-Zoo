@@ -62,12 +62,15 @@ This console application has three interfaces:
     ```
 
 ### Visuals
-
+#### UML Diagram
+![Image 1](https://github.com/jeremymaya/Code-401-Lab05-I-Built-A-Zoo/blob/kyungrae-lab06/Screenshots/UML-lab05.jpg)
+#### Application Output
+![Image 1](https://github.com/jeremymaya/Code-401-Lab05-I-Built-A-Zoo/blob/kyungrae-lab06/Screenshots/Output.JPG)
 
 ---
 
 ### Change Log
-1.2: *Lab 06 Completed* - 21 Oct 2019 12:00 PM
-1.2: *Lab 06 Started* - 21 Oct 2019 8:50 AM
-1.1: *Lab 05 Completed* - 21 Oct 2019 11:55 PM
-1.1: *Lab 05 Started* - 21 Oct 2019 8:50 AM
+1.2: *Lab 06 Completed* - 21 Oct 2019 12:00 PM  
+1.2: *Lab 06 Started* - 21 Oct 2019 8:50 AM  
+1.1: *Lab 05 Completed* - 21 Oct 2019 11:55 PM  
+1.1: *Lab 05 Started* - 21 Oct 2019 8:50 AM  
