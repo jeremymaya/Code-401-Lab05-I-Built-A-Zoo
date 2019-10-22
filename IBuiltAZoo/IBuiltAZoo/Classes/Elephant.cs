@@ -24,10 +24,5 @@ namespace IBuiltAZoo.Classes
         {
             Console.WriteLine("What is winter?");
         }
-
-        public override void Hunt()
-        {
-            Console.WriteLine("I HUNT");
-        }
     }
 }
