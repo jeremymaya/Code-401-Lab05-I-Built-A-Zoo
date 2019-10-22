@@ -6,5 +6,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Classes\Amphibian.cs" />
+    <Compile Remove="Interfaces\EmptyInterface.cs" />
+    <Compile Remove="Classes\ISwim.cs" />
+    <Compile Remove="Classes\IRun.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
   </ItemGroup>
 </Project>
