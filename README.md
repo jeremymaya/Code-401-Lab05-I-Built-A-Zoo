@@ -31,10 +31,43 @@ Then select and open ```IBuiltAZoo.sln```
 
 ---
 
+### Interface
+An interface contains definitions for a group of related functionalities that a class or a struct can implement. It acts like a contract that specifies if a particular class meets certain expectations so that other classes can rely on it.
+
+This console application has three interfaces:
+1. IKeepWarm
+    * Implemented in Mammal.cs
+    ```C#
+    public string KeepWarm(bool fur)
+    {
+        return "This fur keeps me warm :D";
+    }
+    ```
+2. IRun
+    * Implemented in Tiger.cs
+    ```C#
+    public void Run()
+    {
+        Console.WriteLine("I run fast and swiftly");
+    }
+    ```
+3. ISwim
+    * Implemented in Tiger.cs
+    * Implemented in Bear.cs
+    ```C#
+    public string Swim()
+    {
+        return "I may be a cat but I swimmm";
+    }
+    ```
+
 ### Visuals
 
 
 ---
 
 ### Change Log
+1.2: *Lab 06 Completed* - 21 Oct 2019 12:00 PM
+1.2: *Lab 06 Started* - 21 Oct 2019 8:50 AM
+1.1: *Lab 05 Completed* - 21 Oct 2019 11:55 PM
 1.1: *Lab 05 Started* - 21 Oct 2019 8:50 AM
