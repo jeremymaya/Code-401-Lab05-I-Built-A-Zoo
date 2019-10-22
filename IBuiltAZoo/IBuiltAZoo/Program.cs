@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IBuiltAZoo.Classes;
+using System;
 
 namespace IBuiltAZoo
 {
@@ -6,7 +7,8 @@ namespace IBuiltAZoo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Bear polarBear = new Bear("Polar Bear", false, "Birth", true, "White");
+
         }
     }
 }

@@ -1,10 +1,18 @@
 ﻿using System;
 namespace IBuiltAZoo.Classes
 {
-    public class Mammal : Animal
+    public abstract class Mammal : Animal
     {
-        public Mammal()
+        public bool HasFur { get; set; }
+        public virtual bool Lactate { get; set; } = true;
+        public Mammal(string species, bool extinct, string reproduce, bool fur) : base(species, extinct, reproduce)
         {
+            HasFur = fur;
+        }
+
+        public virtual void Hunt()
+        {
+            Console.WriteLine("Where is my food?");
         }
     }
 }
