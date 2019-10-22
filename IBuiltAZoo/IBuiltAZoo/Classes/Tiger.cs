@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using IBuiltAZoo.Interfaces;
 
 namespace IBuiltAZoo.Classes
 {
-    public class Tiger : Mammal
+    public class Tiger : Mammal, ISwim
     {
         public string Region { get; set; }
         public override string Species { get; set; }
@@ -33,6 +34,11 @@ namespace IBuiltAZoo.Classes
         public override void Hunt()
         {
             Console.WriteLine("I HUNT");
+        }
+
+        public string Swim()
+        {
+            return "I may be a cat but I swimmm";
         }
     }
 }

@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using IBuiltAZoo.Interfaces;
 
 namespace IBuiltAZoo.Classes
 {
-    public class Bear : Mammal
+    public class Bear : Mammal, ISwim
     {
         public string Color { get; set; }
         public override string Species { get; set; }
@@ -33,6 +34,11 @@ namespace IBuiltAZoo.Classes
         public override void Hunt()
         {
             Console.WriteLine("I has salmon cookie");
+        }
+
+        public void Swim()
+        {
+
         }
     }
 }
