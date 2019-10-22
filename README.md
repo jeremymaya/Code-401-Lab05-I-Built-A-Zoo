@@ -63,9 +63,9 @@ This console application has three interfaces:
 
 ### Visuals
 #### UML Diagram
-![Image 1](https://github.com/jeremymaya/Code-401-Lab05-I-Built-A-Zoo/blob/kyungrae-lab06/Screenshots/UML-lab05.jpg)
+![Image 1](https://github.com/jeremymaya/Code-401-Lab05-I-Built-A-Zoo/blob/master/Screenshots/UML-lab05.jpg)
 #### Application Output
-![Image 1](https://github.com/jeremymaya/Code-401-Lab05-I-Built-A-Zoo/blob/kyungrae-lab06/Screenshots/Output.JPG)
+![Image 1](https://github.com/jeremymaya/Code-401-Lab05-I-Built-A-Zoo/blob/master/Screenshots/Output.JPG)
 
 ---
 
