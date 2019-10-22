@@ -18,10 +18,5 @@ namespace IBuiltAZoo.Classes
         {
             Console.WriteLine("Where is my food?");
         }
-
-        void Swim()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

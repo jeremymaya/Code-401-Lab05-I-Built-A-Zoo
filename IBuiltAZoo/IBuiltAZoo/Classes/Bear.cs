@@ -36,9 +36,9 @@ namespace IBuiltAZoo.Classes
             Console.WriteLine("I has salmon cookie");
         }
 
-        public void Swim()
+        public string Swim()
         {
-
+            return "I swimmmmmm";
         }
     }
 }

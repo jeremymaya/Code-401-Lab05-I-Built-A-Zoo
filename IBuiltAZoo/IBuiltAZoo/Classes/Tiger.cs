@@ -5,7 +5,7 @@ using IBuiltAZoo.Interfaces;
 
 namespace IBuiltAZoo.Classes
 {
-    public class Tiger : Mammal, ISwim
+    public class Tiger : Mammal, ISwim, IKeepWarm
     {
         public string Region { get; set; }
         public override string Species { get; set; }
